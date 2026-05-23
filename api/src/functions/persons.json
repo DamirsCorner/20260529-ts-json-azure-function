@@ -1,52 +1,42 @@
-[
-  {
-    "id": "1",
+{
+  "1": {
     "firstName": "Emma",
     "lastName": "Johnson"
   },
-  {
-    "id": "2",
+  "2": {
     "firstName": "Liam",
     "lastName": "Martinez"
   },
-  {
-    "id": "3",
+  "3": {
     "firstName": "Olivia",
     "lastName": "Nguyen"
   },
-  {
-    "id": "4",
+  "4": {
     "firstName": "Noah",
     "lastName": "Carter"
   },
-  {
-    "id": "5",
+  "5": {
     "firstName": "Ava",
     "lastName": "Patel"
   },
-  {
-    "id": "6",
+  "6": {
     "firstName": "Ethan",
     "lastName": "Reynolds"
   },
-  {
-    "id": "7",
+  "7": {
     "firstName": "Sophia",
     "lastName": "Kim"
   },
-  {
-    "id": "8",
+  "8": {
     "firstName": "Mason",
     "lastName": "Walker"
   },
-  {
-    "id": "9",
+  "9": {
     "firstName": "Isabella",
     "lastName": "Garcia"
   },
-  {
-    "id": "10",
+  "10": {
     "firstName": "Lucas",
     "lastName": "Bennett"
   }
-]
+}

@@ -11,7 +11,7 @@ export async function getPerson(
   context: InvocationContext,
 ): Promise<HttpResponseInit> {
   const id = request.query.get("id");
-  const person = persons.find((p) => p.id == id);
+  const person = id != null ? persons[id] : undefined;
 
   if (person) {
     return {
