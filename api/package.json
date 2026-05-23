@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
+    "build": "tsc && copyfiles \"src/**/*.json\" dist",
+    "watch": "copyfiles \"src/**/*.json\" dist && tsc -w",
     "clean": "rimraf dist",
     "prestart": "npm run clean && npm run build",
     "start": "func start",
@@ -15,8 +15,9 @@
   },
   "devDependencies": {
     "@types/node": "^20.x",
-    "typescript": "^5.0.0",
-    "rimraf": "^5.0.0"
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
   },
   "main": "dist/src/{index.js,functions/*.js}"
 }
